@@ -1,7 +1,4 @@
 # id-spanish-letter-detector
-All ID Spanish have eight numbers and one letter. With this app you can know the letter of any id Spanish with only the number.
+All spanish IDs have eight numbers and one letter. Thanks that web app you can know the letter of everything spanish IDs with only if knows the eight numbers.
 
 
-Blablabla bla
-
-otra modificacion
