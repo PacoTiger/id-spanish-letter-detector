@@ -8,13 +8,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n\n	<head>\n		<meta charset=\"UTF-8\">\n		<title>JS Test</title>\n		\n	</head>\n\n	<body>\n		<pre>\n			Instructions to do the exercises \n			 1º Open the file functions.js with Sublime Text editor. It is in the js folder, next to the this index.html you've just opened.\n			 2º Open the console of your browser (Press F12 key).\n			 3º Now uncomment the exercises deleting the comment marks in lines 18 and 32.\n			 4º SAVE the functions.js file.\n			 5º Back in your browser, reload the current page (index.html) with the console opened.\n			 6º You will see the result of the execution of the first exercise\n			 7º Read the instructions of the exercise in the functions.js file.\n			 8º Code the solution, save, and reload to see if you did it right\n			 9º Follow the steps of each exercise until the end.\n			 10ª That functions.js file is the solution you have to send to the teacher.\n		</pre>\n\n		<script type=\"text/javascript\" src=\"js/functions.js\"></script>\n	</body>\n\n</html",
 			"file": "index.html",
-			"file_size": 1016,
-			"file_write_time": 131068589560000000,
 			"settings":
 			{
-				"buffer_size": 983,
+				"buffer_size": 446,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,6 +24,14 @@
 			}
 		},
 		{
+			"file": "/C/Users/pacot/Desktop/Portfolio/Bussiness card Builder/index.html",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"contents": "",
 			"file": "css/mine.css",
 			"file_size": 7,
@@ -35,6 +40,14 @@
 			{
 				"buffer_size": 0,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/pacot/Desktop/GoingApp-master/GoingApp-master/server.js",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -131,15 +144,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 983,
+						"buffer_size": 446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								214,
+								214
 							]
 						],
 						"settings":
@@ -156,7 +169,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -187,6 +200,34 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/C/Users/pacot/Desktop/Portfolio/Bussiness card Builder/index.html",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "css/mine.css",
 					"settings":
 					{
@@ -204,6 +245,32 @@
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/pacot/Desktop/GoingApp-master/GoingApp-master/server.js",
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
