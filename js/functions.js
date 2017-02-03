@@ -13,3 +13,13 @@
 // 
 // You can use 'result' variable to store the resulting letter.
 // If your code works, the last three equalities will be "true"
+
+function dniLetter( dni ) {
+	var resto = dni%23;
+	if (dni <= -1 || dni === (/[A-Z]{1}\d{7}$/)) {
+		result = "Invalid parameter";
+	} 
+	else {
+	var lockup = 'TRWAGMYFPDXBNJZSQVHLCKE';
+	var result = lockup.charAt(resto);
+	}
