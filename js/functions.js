@@ -23,3 +23,4 @@ function dniLetter( dni ) {
 	var lockup = 'TRWAGMYFPDXBNJZSQVHLCKE';
 	var result = lockup.charAt(resto);
 	}
+};
