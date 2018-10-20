@@ -14,13 +14,27 @@
 // You can use 'result' variable to store the resulting letter.
 // If your code works, the last three equalities will be "true"
 
+const result = document.getElementById("result");
+const numberDNI = document.getElementById('InputNumbers');
+
 function dniLetter( dni ) {
 	var resto = dni%23;
 	if (dni <= -1 || dni === (/[A-Z]{1}\d{7}$/)) {
-		result = "Invalid parameter";
+		return "Invalid parameter";
 	} 
 	else {
 	var lockup = 'TRWAGMYFPDXBNJZSQVHLCKE';
-	var result = lockup.charAt(resto);
+	return lockup.charAt(resto);
 	}
-};
+}
+
+function check(e){
+	event.preventDefault(e);
+	console.log("algo oraro pasasg");
+	console.log(numberDNI.value);
+	result.innerHTML = "";
+	result.append(dniLetter(numberDNI.value));
+}
+
+document.getElementById("bttn").addEventListener("click", check);
+

@@ -1,3 +1,37 @@
 div {
 	border: solid;
 }
+body {
+	background: black;
+	color: white;
+	font-size: 65.5%;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+}
+header {
+	text-align: center;
+}
+.collect {	
+	position: relative;
+}
+button {
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	height: 100%;
+}
+
+input {
+	width: 100%;
+	font-size: 2rem;
+}
+
+#result {
+	font-size: 12rem;
+	text-align: center;
+}
